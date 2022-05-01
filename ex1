@@ -1,0 +1,8 @@
+def fat(n):
+    if n == "":
+        return 0
+    else:
+        return fat(n[1:]) + 1
+
+n = "h2o"
+print(fat(n))
